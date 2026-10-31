@@ -39,7 +39,7 @@ interface f0/2
 interface g0/1
  switchport mode trunk
  switchport trunk allowed vlan 10,99
-
+```
 **2960 Branch Switch (Branch-SW)**
 ```CISCO
 enable
@@ -153,11 +153,15 @@ wr
    - poolVLAN30 - 192.168.30.0, Gateway 192.168.30.1
    - poolVLAN40 - 192.168.40.0, Gateway 192.168.40.1
    - DNS Server: 192.168.99.10 untuk semua pool
+```
 **AccessPoint-PT AP-Branch 1 (Wi-Fi Karyawan - VLAN 30)**
+```CISCO
    - SSID: WiFi-Karyawan
    - Authentication: WPA2-PSK, Pass: karyawan123
    - Port 1: Connect ke Switch VLAN 30
+```
 **AccessPoint-PT AP-Branch 2 (Wi-Fi Tamu - VLAN 40)**
+```CISCO
    - SSID: WiFi-Tamu
    - Authentication: WPA2-PSK, Pass: tamu12345
    - Port 1: Connect ke Switch VLAN 40
