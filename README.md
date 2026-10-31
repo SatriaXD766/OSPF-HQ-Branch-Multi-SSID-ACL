@@ -14,7 +14,7 @@
 ### 👋 Tentang Project Ini
 
 > **Status:** Mahasiswa Semester 1 - Teknik Informatika (552012610009)
-> **Project:** Personal Advanced Lab - Eksplorasi Networking dengan Cisco Packet Tracert sebagai project pribadi dan portofolio.
+> **Project:** Personal Advanced Lab - Eksplorasi Networking dengan Cisco Packet Tracer sebagai project pribadi dan portofolio.
 
 Aku sengaja ngoprek topologi yang lebih kompleks dari Project Semester 1 (yang cuma VLAN & Static Routing) biar pas masuk Project semester 2 bisa buat project yang lebih kompleks. Topologi ini adalah **Hybrid HQ-Branch dengan OSPF + Security ACL**.
 
@@ -45,9 +45,14 @@ Ini yang bikin beda dari project Semester 1:
 *Ping dari HQ-PC1 ke Branch-PC1 192.168.20.10 = 0% Loss, artinya Topologi OSPF saling terhubung! (all connected)*
 
 ### 📁 Isi Repo
-- `OSPF-HQ-Branch-ACL.pkt` 
-- `bukti-acl-block.png`
-- `OSPF-HQ-Branch-ACL.png` 
+- `OSPF-HQ-Branch-ACL.pkt` - File utama Packet Tracer
+- `CONFIGURATION.md` - **Dokumentasi Lengkap IP, VLAN, OSPF, DHCP Relay & ACL**
+- `bukti-acl-block.png` - Bukti ACL 100% Loss
+- `bukti-akses-karyawan-normal.png` - Bukti Akses Karyawan
+- `OSPF-Connected.png` - Bukti OSPF
+- `OSPF-HQ-Branch-ACL.png` - Topologi
+
+> 📖 **Lihat detail konfigurasi lengkap di:** [CONFIGURATION.md](./CONFIGURATION.md)
 
 ### 🛠️ Tools
 - Cisco Packet Tracer 8.x
