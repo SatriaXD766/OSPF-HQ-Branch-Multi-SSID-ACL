@@ -1,4 +1,4 @@
-# ⚙️ CONFIGURATION.md - Advanced Lab OSPF HQ-Branch + Multi-SSID + ACL
+# ⚙️ CONFIGURATION.md - OSPF HQ-Branch + Multi-SSID + ACL
 
 > **Topologi:** HEAD OFFICE (HQ) SITE <-> BRANCH OFFICE SITE  
 > **Routing:** OSPF Area 0 Single Area - P2P Link 10.10.10.0/30  
