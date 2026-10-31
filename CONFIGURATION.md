@@ -20,6 +20,7 @@
 ### 2. Konfigurasi Switch
 
 **2960 HQ Switch (HQ-SW)**
+```CISCO
 enable
 conf t
 vlan 10
@@ -40,6 +41,7 @@ interface g0/1
  switchport trunk allowed vlan 10,99
 
 **2960 Branch Switch (Branch-SW)**
+```CISCO
 enable
 conf t
 vlan 20
@@ -68,7 +70,8 @@ interface g0/2
  ! Trunk ke Router Branch
 
 ### 3. Konfigurasi Router HQ (2911 - HQ-Router)
- enable
+```CISCO
+enable
  conf t
 hostname HQ-Router
 
@@ -97,6 +100,7 @@ end
 wr
 
 ### 4. Konfigurasi Router Branch (2911 - Branch-Router)
+```CISCO
 enable
 conf t
 hostname Branch-Router
@@ -157,6 +161,7 @@ wr
    - Port 1: Connect ke Switch VLAN 40
 
 ### 6. Verifikasi & Pengujian Final
+```CISCO
 ! Cek OSPF
 show ip ospf neighbor
 ! Harus muncul FULL/ - 1.1.1.1 di Branch dan 2.2.2.2 di HQ
