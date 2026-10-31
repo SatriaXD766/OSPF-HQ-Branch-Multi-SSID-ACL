@@ -70,6 +70,7 @@ interface g0/2
  ! Trunk ke Router Branch
 ```
 ### 3. Konfigurasi Router HQ (2911 - HQ-Router)
+```CISCO
 enable
  conf t
 hostname HQ-Router
@@ -143,6 +144,7 @@ wr
 ```
 ### 5. Konfigurasi Server & Wireless
 **Server-PT SRV-DHCP (192.168.99.10)**
+```CISCO
 1. Set Static IP: 192.168.99.10 / 255.255.255.0 / Gateway 192.168.99.1 / DNS 192.168.99.10
 2. Services > DHCP > Buat 5 Pool:
    - poolVLAN10 - 192.168.10.0, Gateway 192.168.10.1
@@ -159,7 +161,7 @@ wr
    - SSID: WiFi-Tamu
    - Authentication: WPA2-PSK, Pass: tamu12345
    - Port 1: Connect ke Switch VLAN 40
-
+```
 ### 6. Verifikasi & Pengujian Final
 ```CISCO
 ! Cek OSPF
