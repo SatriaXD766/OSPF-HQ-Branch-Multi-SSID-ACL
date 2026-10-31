@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=26&duration=2500&pause=400&color=00FFAB&background=0A0A23FF&center=true&vCenter=true&multiline=true&width=900&height=150&lines=Self-Study+Lab+%7C+OSPF+%2B+ACL+%F0%9F%94%A5;Semester+1+but+already+on+Semester+2+Material;No+RTO+fr+fr+%F0%9F%98%8E)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=26&duration=2500&pause=400&color=00FFAB&background=0A0A23FF&center=true&vCenter=true&multiline=true&width=900&height=150&lines=Self-Study+Lab+%7C+OSPF+%2B+ACL+%F0%9F%94%A5;Semester+1+but+already+on+Project+Semester+2+Self+Study;No+RTO+fr+fr+%F0%9F%98%8E)](https://git.io/typing-svg)
 
 ![Cisco](https://img.shields.io/badge/Cisco-Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-ADVANCED-FF6B00?style=for-the-badge&logo=cisco&logoColor=white)
@@ -37,10 +37,13 @@ Ini yang bikin beda dari project Semester 1:
 **Screenshot Bukti:**
 ![Bukti ACL Berhasil](bukti-acl-block.png)
 *Ping dari Guest-Phone ke Server HQ 192.168.99.1 = 100% Loss, artinya ACL BLOCK-GUEST bekerja!*
+
 ![Bukti Akses Karyawan Normal](bukti-akses-karyawan-normal.png)
 *Ping dari Branch-PC1 ke Server HQ 192.168.99.10 = 0% Loss, artinya Akses Karyawan ke Server Normal!*
+
 ![Bukti OSPF Terhubung](OSPF-Connected.png)
 *Ping dari HQ-PC1 ke Branch-PC1 192.168.20.10 = 0% Loss, artinya Topologi OSPF saling terhubung! (all connected)*
+
 ### 📁 Isi Repo
 - `OSPF-HQ-Branch-ACL.pkt` 
 - `bukti-acl-block.png`
