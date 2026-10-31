@@ -21,7 +21,7 @@ Aku sengaja ngoprek topologi yang lebih kompleks dari Project Semester 1 (yang c
 ### ✨ Apa Yang Aku Pelajari di Lab Ini?
 Ini yang bikin beda dari project Semester 1:
 
-- **Routing Dinamis:** OSPF Area 0 Single Area, Point-to-Point Link (192.168.100.0/30) bukan cuma static route
+- **Routing Dinamis:** OSPF Area 0 Single Area, Point-to-Point Link (10.10.10.0/30) bukan cuma static route
 - **DHCP Relay:** DHCP Server terpusat di HQ (VLAN 99) + `ip helper-address` di Branch, jadi Branch nggak perlu bikin server lagi
 - **Multi-SSID Workaround:** Packet Tracer nggak support Multi-SSID 1 AP, jadi solusinya pakai 2 AP fisik (AP-Work VLAN 30, AP-Guest VLAN 40)
 - **Security:** Extended ACL `BLOCK-GUEST` - Memblokir Guest Wi-Fi mengakses Server internal HQ
