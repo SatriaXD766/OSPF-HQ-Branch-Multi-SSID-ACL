@@ -16,7 +16,7 @@
 > **Status:** Mahasiswa Semester 1 - Teknik Informatika (552012610009)
 > **Project:** Personal Advanced Lab - Eksplorasi Networking dengan Cisco Packet Tracer sebagai project pribadi dan portofolio.
 
-Aku sengaja ngoprek topologi yang lebih kompleks dari Project Semester 1 (yang cuma VLAN & Static Routing) biar pas masuk Project semester 2 harapanku bisa buat project yang lebih kompleks. Topologi ini adalah **Hybrid HQ-Branch dengan OSPF + Security ACL**.
+Aku sengaja ngoprek topologi yang lebih kompleks dari Project Semester 1 (yang cuma VLAN & Static Routing) biar pas masuk Project semester 2 harapanku biar bisa buat project yang lebih kompleks. Topologi ini adalah **Hybrid HQ-Branch dengan OSPF + Security ACL**.
 
 ### ✨ Apa Yang Aku Pelajari di Lab Ini?
 Ini yang bikin beda dari project Semester 1:
