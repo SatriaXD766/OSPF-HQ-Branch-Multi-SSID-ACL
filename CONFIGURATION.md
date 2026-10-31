@@ -69,8 +69,8 @@ interface g0/2
 ! Trunk ke Router Branch
 
 ### 3. Konfigurasi Router HQ (2911 - HQ-Router)
-enable
-conf t
+ enable
+ conf t
 hostname HQ-Router
 
 ! Inter-VLAN
