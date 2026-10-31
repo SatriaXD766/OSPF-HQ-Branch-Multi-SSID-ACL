@@ -38,8 +38,17 @@ Ini yang bikin beda dari project Semester 1:
 ![Bukti ACL Berhasil](bukti-acl-block.png)
 *Ping dari Guest-Phone ke Server HQ 192.168.99.1 = 100% Loss, artinya ACL BLOCK-GUEST bekerja!*
 
+
+
+
+
 ![Bukti Akses Karyawan Normal](bukti-akses-karyawan-normal.png)
 *Ping dari Branch-PC1 ke Server HQ 192.168.99.10 = 0% Loss, artinya Akses Karyawan ke Server Normal!*
+
+
+
+
+
 
 ![Bukti OSPF Terhubung](OSPF-Connected.png)
 *Ping dari HQ-PC1 ke Branch-PC1 192.168.20.10 = 0% Loss, artinya Topologi OSPF saling terhubung! (all connected)*
