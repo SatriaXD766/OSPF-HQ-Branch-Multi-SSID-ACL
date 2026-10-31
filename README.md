@@ -31,7 +31,7 @@ Ini yang bikin beda dari project Semester 1:
 | No | Test | Hasil | Status |
 | :--- | :--- | :--- | :--- |
 | 1 | Guest-Phone (VLAN 40) -> Server HQ (VLAN 99) | **Request Timed Out (100% Loss)** | ✅ **ACL Berhasil Block!** |
-| 2 | Branch-PC1 (VLAN 30 - Karyawan) -> Server HQ | Reply | ✅ Akses Karyawan Normal |
+| 2 | Branch-PC1 (VLAN 20 - Karyawan) -> Server HQ | Reply | ✅ Akses Karyawan Normal |
 | 3 | HQ-PC1 -> Branch-PC1 | Reply | ✅ OSPF Connected |
 
 **Screenshot Bukti:**
