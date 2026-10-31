@@ -68,9 +68,8 @@ interface g0/1
 interface g0/2
  switchport mode trunk
  ! Trunk ke Router Branch
-
+```
 ### 3. Konfigurasi Router HQ (2911 - HQ-Router)
-```CISCO
 enable
  conf t
 hostname HQ-Router
@@ -141,6 +140,7 @@ interface g0/0.40
 end
 wr
 
+```
 ### 5. Konfigurasi Server & Wireless
 **Server-PT SRV-DHCP (192.168.99.10)**
 1. Set Static IP: 192.168.99.10 / 255.255.255.0 / Gateway 192.168.99.1 / DNS 192.168.99.10
