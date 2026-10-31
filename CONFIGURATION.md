@@ -63,10 +63,9 @@ interface f0/3
 interface g0/1
  switchport mode trunk
  switchport trunk allowed vlan 20,30,40
-
 interface g0/2
  switchport mode trunk
-! Trunk ke Router Branch
+ ! Trunk ke Router Branch
 
 ### 3. Konfigurasi Router HQ (2911 - HQ-Router)
  enable
