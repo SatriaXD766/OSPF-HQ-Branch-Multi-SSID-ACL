@@ -36,7 +36,7 @@ Ini yang bikin beda dari project Semester 1:
 
 **Screenshot Bukti:**
 ![Bukti ACL Berhasil](bukti-acl-block.png)
-*Ping dari Guest-Phone ke Server HQ 192.168.99.10 = 100% Loss, artinya ACL BLOCK-GUEST bekerja!*
+*Ping dari Guest-Phone ke Server HQ 192.168.99.1 = 100% Loss, artinya ACL BLOCK-GUEST bekerja!*
 
 ### 📁 Isi Repo
 - `OSPF-HQ-Branch-ACL.pkt` 
