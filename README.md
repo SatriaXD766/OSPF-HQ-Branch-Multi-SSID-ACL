@@ -38,17 +38,8 @@ Ini yang bikin beda dari project Semester 1:
 ![Bukti ACL Berhasil](bukti-acl-block.png)
 *Ping dari Guest-Phone ke Server HQ 192.168.99.1 = 100% Loss, artinya ACL BLOCK-GUEST bekerja!*
 
-
-
-
-
 ![Bukti Akses Karyawan Normal](bukti-akses-karyawan-normal.png)
 *Ping dari Branch-PC1 ke Server HQ 192.168.99.10 = 0% Loss, artinya Akses Karyawan ke Server Normal!*
-
-
-
-
-
 
 ![Bukti OSPF Terhubung](OSPF-Connected.png)
 *Ping dari HQ-PC1 ke Branch-PC1 192.168.20.10 = 0% Loss, artinya Topologi OSPF saling terhubung! (all connected)*
@@ -66,5 +57,5 @@ Ini yang bikin beda dari project Semester 1:
 **By:** Satria Bagas Sejati - 552012610009  
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,25,30&height=170&section=footer&text=From+VLAN+to+OSPF&fontSize=32&fontColor=fff&animation=twinkling&fontAlignY=60&desc=%5BPING+SUCCESS%5D+Self-Study+Lab+%7C+Ready+for+Semester+2&descAlignY=85&descSize=17" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,25,30&height=170&section=footer&text=From+VLAN+to+OSPF&fontSize=32&fontColor=fff&animation=twinkling&fontAlignY=60&desc=%5BPING+SUCCESS%5D+Self-Study+Lab+%7C+Ready+for+Project+Semester+2&descAlignY=85&descSize=17" />
 </div>
