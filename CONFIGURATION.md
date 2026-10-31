@@ -98,7 +98,7 @@ router ospf 1
  network 10.10.10.0 0.0.0.3 area 0
 end
 wr
-
+```
 ### 4. Konfigurasi Router Branch (2911 - Branch-Router)
 ```CISCO
 enable
