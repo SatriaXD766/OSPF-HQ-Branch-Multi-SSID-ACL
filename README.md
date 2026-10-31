@@ -26,7 +26,7 @@ Ini yang bikin beda dari project Semester 1:
 - **Multi-SSID Workaround:** Packet Tracer nggak support Multi-SSID 1 AP, jadi solusinya pakai 2 AP fisik (AP-Work VLAN 30, AP-Guest VLAN 40)
 - **Security:** Extended ACL `BLOCK-GUEST` - Memblokir Guest Wi-Fi mengakses Server internal HQ
 
-### 🧪 Bukti Keberhasilan (Paling Penting!)
+### 🧪 Bukti Keberhasilan!
 
 | No | Test | Hasil | Status |
 | :--- | :--- | :--- | :--- |
